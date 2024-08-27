@@ -1,8 +1,14 @@
 import React from 'react'
+import Navbar from './Navbar'
+
 
 function About() {
   return (
-    <div>About</div>
+
+    <div>
+      <Navbar/>
+      <h1 className='tagbar'>About</h1>
+    </div>
   )
 }
 
