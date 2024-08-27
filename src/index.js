@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom/client';
-import Home from './Home';
-import About from './About';
-import Contact from './Contact';
+import Home from './views/Home/Home';
+import About from './views/About/About';
+import Contact from './views/Contact/Contact';
 import "./index.css"
 
 

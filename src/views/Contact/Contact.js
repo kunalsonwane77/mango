@@ -1,6 +1,7 @@
 import React from 'react'
-import Navbar from './Navbar'
+import Navbar from '../../components/Navbar/Navbar'
 import cantactimg from "./Contact us-img.png"
+import "./Contact.css"
 
 function Contact() {
   return (

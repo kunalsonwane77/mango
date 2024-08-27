@@ -1,6 +1,7 @@
 import React from 'react'
-import Navbar from './Navbar'
+import Navbar from '../../components/Navbar/Navbar'
 import Homeimg from "./Home-img.png"
+import "./Home.css"
 
 function Home() {
   return (
