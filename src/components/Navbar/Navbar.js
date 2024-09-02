@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import "./Navbar.css"
 
 function Navbar() {
@@ -5,9 +6,12 @@ function Navbar() {
     <div className="navbar">
      <h1>Mango 🥭</h1>
      <div className="links">
-      <a href="/">Home</a>
-      <a href="/about">About</a>
-      <a href="/contact">Contact</a>
+
+      <Link to="/">Home</Link>
+
+      <Link  to="/about">About</Link>
+
+      <Link to="/contact">Contact</Link>
     </div>
     </div>
    
